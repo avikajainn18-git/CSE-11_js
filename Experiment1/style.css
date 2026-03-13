@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f6f8;
+    text-align:center;
+    margin-top:120px;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+h3{
+    margin-bottom:10px;
+}
+
+input{
+    padding:8px;
+    width:160px;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+
+button{
+    padding:8px 14px;
+    background:#419ff0;
+    color:rgb(0, 0, 0);
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#6eebeb;
+}
+
+#result{
+    margin-top:20px;
+    font-weight:bold;
+}
