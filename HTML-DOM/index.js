@@ -1,6 +1,6 @@
 const classItem = document.getElementsByClassName("Myclass")[0];
 classItem.innerHTML = "Hello";
-classItem.style.color = "red";
+classItem.style.color = "purple";
 
 const paragraph = document.getElementsByTagName("p")[0];
 paragraph.innerHTML = "Paragraph changed";
@@ -8,7 +8,7 @@ paragraph.style.fontSize = "20px";
 
 const para = document.getElementById("para");
 para.innerHTML = "Updated text";
-para.style.backgroundColor = "yellow";
+para.style.backgroundColor="olive"
 para.style.padding = "10px";
 
 
