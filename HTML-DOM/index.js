@@ -1,20 +1,15 @@
-const classItems = document.getElementsByClassName("Myclass");
-console.log(classItems);
+const classItem = document.getElementsByClassName("Myclass")[0];
+classItem.innerHTML = "Hello";
+classItem.style.color = "red";
 
-for(let i = 0; i < classItems.length; i++){
-    classItems[i].style.color = "red";
-}
-
-const paragraphs = document.getElementsByTagName("p");
-console.log(paragraphs);
-for(let i = 0; i < paragraphs.length; i++){
-    paragraphs[i].style.fontSize = "20px";
-}
+const paragraph = document.getElementsByTagName("p")[0];
+paragraph.innerHTML = "Paragraph changed";
+paragraph.style.fontSize = "20px";
 
 const para = document.getElementById("para");
+para.innerHTML = "Updated text";
 para.style.backgroundColor = "yellow";
 para.style.padding = "10px";
-console.log(para);
 
 
 
@@ -22,6 +17,7 @@ const test =document.querySelector("ul li:nth-child(3)");
 test.style.backgroundColor= "green";
 test.style.padding="10px";
 console.log(test);
+
 const test2=document.querySelectorAll("ul li");
 for(x in test2){
     test2[x].style.backgroundColor="pink";
