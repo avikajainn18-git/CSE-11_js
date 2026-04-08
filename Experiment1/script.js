@@ -5,10 +5,7 @@ function Calculateresult(){
     for(i=0;i<n;i++){
         let x=parseFloat(prompt("enter the subject number"+(i+1)))
         total+=x;
-
-
     }
-
     let average=total/n;
     let grade;
     if(average>90){
@@ -26,7 +23,6 @@ function Calculateresult(){
     else{
         grade='F';
     }
-
     let r;
     if (average>35){
         r="pass";
@@ -34,9 +30,7 @@ function Calculateresult(){
     else{
         r="fail";
     }
-
 let 
-result=document.getElementById("result").innerHTML="Total Marks: "+total+"</br>"+ "Average Marks: "+average+"</br>" + "Grade: "+grade+"</br>" + "Result: "+r+"</br>" 
-
-
+result=document.getElementById("result").innerHTML="Total Marks: "+total+"</br>"+ "Average Marks: "+average+"</br>" 
++ "Grade: "+grade+"</br>" + "Result: "+r+"</br>" 
 }
