@@ -1,6 +1,7 @@
 body{
 font-family:Arial;
 margin:40px;
+background-color: rgb(193, 162, 221);
 }
 
 input{
@@ -8,7 +9,7 @@ margin:5px;
 padding:5px;
 }
 
-button{
+button{ 
 margin:5px;
 padding:5px 10px;
 }
